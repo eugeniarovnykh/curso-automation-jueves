@@ -1,4 +1,4 @@
-package com.icaro.clase4.practica4;
+package com.icaro.clase4.practica4_5;
 
 public class Alumno extends Persona {
 
@@ -25,6 +25,11 @@ public class Alumno extends Persona {
 
     public void setNota(Integer nota) {
         this.nota = nota;
+    }
+
+    @Override
+    public void saludar() {
+        System.out.println("Que ondaaaaa");
     }
 
 }

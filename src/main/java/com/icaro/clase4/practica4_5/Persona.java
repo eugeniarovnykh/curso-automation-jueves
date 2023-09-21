@@ -1,4 +1,4 @@
-package com.icaro.clase4.practica4;
+package com.icaro.clase4.practica4_5;
 
 public class Persona {
 
@@ -24,5 +24,9 @@ public class Persona {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public void saludar() {
+        System.out.println("Hola, como estan?");
     }
 }
